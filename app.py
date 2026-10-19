@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify(
         application="ansible-demo-app",
-        "message": "Deployment V3 with automatic restart",
+        message= "Deployment V3 with automatic restart",
         status="running",
     )
 
